@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-
+'''
+python finetune_qa_models.py --model_name_or_path "allenai/longformer-base-4096" --datesets "squad" --output_dir "./output_dir" --do_train --do_eval --num_train_epoch 2
+'''
 from __future__ import print_function
 import argparse
 from collections import Counter
